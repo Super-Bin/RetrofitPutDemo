@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.zzb.retrofitputdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择一种方式上传文件"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <Button
+        android:id="@+id/btn_putForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="PUT表单方法上传文件"/>
+
+    <Button
+        android:id="@+id/btn_putBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUT请求体上传文件"
+        android:layout_above="@id/btn_putForm" />
+
+</RelativeLayout>
